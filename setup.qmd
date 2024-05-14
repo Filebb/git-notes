@@ -18,9 +18,22 @@ The following command returns the version number currently installed.
 
 ```bash
 git version
-## git version 2.45.1git.windows.1
+## git version 2.45.1.windows.1
 ```
 
 ::: {.callout-note}
 Alternatively you can use `git -v` or `git --version`.
 :::
+
+## Setup Identity
+
+Every Git commit uses your user name and email address. These can be set up
+using the following commands.
+
+```bash
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"
+```
+
+You havo to do this only once for any computer. You can also change them at any
+time by running through the commands again.
