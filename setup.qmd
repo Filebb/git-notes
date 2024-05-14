@@ -1,10 +1,10 @@
 # Setup
 
-## Installing Git
+## Install Git
 
 To install on Windows, download the executable from [here](https://git-scm.com/).
 
-## Updating Git
+## Update Git
 
 On Windows, run the following command.
 
@@ -40,9 +40,20 @@ time by running through the commands again.
 
 ## Setup Default Branch Name
 
-By default Git will create a initial branch called `master`. To set a different
+By default Git creates a initial branch called `master`. To set a different
 name, for example `main`, run:
 
 ```bash
 git config --global init.defaultBranch main
+```
+
+## Check Your Settings
+
+To check your settings use:
+
+```bash
+git config --global --list
+# user.name=<your name>
+# user.email=<your email>
+# init.defaultbranch=main
 ```
