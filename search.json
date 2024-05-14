@@ -8,5 +8,25 @@
     "crumbs": [
       "Welcome"
     ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "1  Setup",
+    "section": "",
+    "text": "1.1 Installing Git\nTo install on Windows, download the executable from here.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "setup.html#version",
+    "href": "setup.html#version",
+    "title": "1  Setup",
+    "section": "1.2 Version",
+    "text": "1.2 Version\nIf you have Git installed on your computer then the following command will return the version number you have installed.\ngit version\n## git version 2.45.0.windows.1",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
+    ]
   }
 ]
