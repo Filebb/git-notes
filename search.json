@@ -20,11 +20,21 @@
     ]
   },
   {
+    "objectID": "setup.html#updating-git",
+    "href": "setup.html#updating-git",
+    "title": "Setup",
+    "section": "Updating Git",
+    "text": "Updating Git\nOn Windows, run the following command.\ngit update-git-for-windows",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
     "objectID": "setup.html#version",
     "href": "setup.html#version",
     "title": "Setup",
     "section": "Version",
-    "text": "Version\nIf you have Git installed on your computer then the following command will return the version number you have installed.\ngit version\n## git version 2.45.0.windows.1\n\n\n\n\n\n\nNote\n\n\n\nAlternatively you can use git -v or git --version.",
+    "text": "Version\nThe following command returns the version number currently installed.\ngit version\n## git version 2.45.1git.windows.1\n\n\n\n\n\n\nNote\n\n\n\nAlternatively you can use git -v or git --version.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
     ]
