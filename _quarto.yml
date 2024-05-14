@@ -1,0 +1,17 @@
+project:
+    type: book
+
+book:
+    title: "Git Notes"
+    author: ""
+    date: ""
+    chapters:
+        - index.qmd
+
+format:
+    html:
+        theme: cosmo
+        toc-title: Contents
+
+
+
