@@ -6,7 +6,7 @@ To install on Windows, download the executable from [here](https://git-scm.com/)
 
 ## Version
 
-The following command will return the version number currently installed.
+The following command returns the version number currently installed.
 
 ```bash
 git version
