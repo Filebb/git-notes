@@ -24,7 +24,7 @@
     "href": "setup.html#update-git",
     "title": "Setup",
     "section": "Update Git",
-    "text": "Update Git\nOn Windows, run the following command.\ngit update-git-for-windows",
+    "text": "Update Git\nOn Windows, run the following command.\ngit update-git-for-windows\n\n\n\n\n\n\nNote\n\n\n\nIf you already have the latest version it just returns:\n# Git for Windows 2.45.1.windows.1 (64-bit)\n# Up to date",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
     ]
