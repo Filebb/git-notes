@@ -160,9 +160,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git">Installing Git</a></li>
-  <li><a href="#updating-git" id="toc-updating-git" class="nav-link" data-scroll-target="#updating-git">Updating Git</a></li>
+  <li><a href="#install-git" id="toc-install-git" class="nav-link active" data-scroll-target="#install-git">Install Git</a></li>
+  <li><a href="#update-git" id="toc-update-git" class="nav-link" data-scroll-target="#update-git">Update Git</a></li>
   <li><a href="#version" id="toc-version" class="nav-link" data-scroll-target="#version">Version</a></li>
+  <li><a href="#setup-identity" id="toc-setup-identity" class="nav-link" data-scroll-target="#setup-identity">Setup Identity</a></li>
+  <li><a href="#setup-default-branch-name" id="toc-setup-default-branch-name" class="nav-link" data-scroll-target="#setup-default-branch-name">Setup Default Branch Name</a></li>
+  <li><a href="#check-your-settings" id="toc-check-your-settings" class="nav-link" data-scroll-target="#check-your-settings">Check Your Settings</a></li>
   </ul>
 </nav>
     </div>
@@ -188,12 +191,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="installing-git" class="level2">
-<h2 class="anchored" data-anchor-id="installing-git">Installing Git</h2>
+<section id="install-git" class="level2">
+<h2 class="anchored" data-anchor-id="install-git">Install Git</h2>
 <p>To install on Windows, download the executable from <a href="https://git-scm.com/">here</a>.</p>
 </section>
-<section id="updating-git" class="level2">
-<h2 class="anchored" data-anchor-id="updating-git">Updating Git</h2>
+<section id="update-git" class="level2">
+<h2 class="anchored" data-anchor-id="update-git">Update Git</h2>
 <p>On Windows, run the following command.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> update-git-for-windows</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -201,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="version">Version</h2>
 <p>The following command returns the version number currently installed.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> version</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">## git version 2.45.1git.windows.1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">## git version 2.45.1.windows.1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -215,6 +218,26 @@ Note
 <p>Alternatively you can use <code>git -v</code> or <code>git --version</code>.</p>
 </div>
 </div>
+</section>
+<section id="setup-identity" class="level2">
+<h2 class="anchored" data-anchor-id="setup-identity">Setup Identity</h2>
+<p>Every Git commit uses your user name and email address. These can be set up using the following commands.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"&lt;your name&gt;"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"&lt;your email&gt;"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You have to do this only once for any computer. You can also change them at any time by running through the commands again.</p>
+</section>
+<section id="setup-default-branch-name" class="level2">
+<h2 class="anchored" data-anchor-id="setup-default-branch-name">Setup Default Branch Name</h2>
+<p>By default Git creates a initial branch called <code>master</code>. To set a different name, for example <code>main</code>, run:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> init.defaultBranch main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="check-your-settings" class="level2">
+<h2 class="anchored" data-anchor-id="check-your-settings">Check Your Settings</h2>
+<p>To check your settings use:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> <span class="at">--list</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># user.name=&lt;your name&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># user.email=&lt;your email&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># init.defaultbranch=main</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
