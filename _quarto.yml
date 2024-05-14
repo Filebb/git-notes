@@ -12,6 +12,7 @@ book:
 format:
     html:
         theme: cosmo
+        highlight-style: atom-one
         toc-title: Contents
         link-external-newwindow: true
 
