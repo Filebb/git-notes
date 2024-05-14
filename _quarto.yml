@@ -7,11 +7,13 @@ book:
     date: ""
     chapters:
         - index.qmd
+        - setup.qmd
 
 format:
     html:
         theme: cosmo
         toc-title: Contents
+        link-external-newwindow: true
 
 
 

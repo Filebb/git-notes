@@ -1,0 +1,5 @@
+# Setup
+
+## Installing Git
+
+To install on Windows, download the executable from [here](https://git-scm.com/).
