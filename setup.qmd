@@ -3,3 +3,14 @@
 ## Installing Git
 
 To install on Windows, download the executable from [here](https://git-scm.com/).
+
+## Version
+
+If you have Git installed on your computer then the following command will
+return the version number you have installed.
+
+```bash
+git version
+## git version 2.45.0.windows.1
+```
+
