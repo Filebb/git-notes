@@ -12,6 +12,14 @@ On Windows, run the following command.
 git update-git-for-windows
 ```
 
+::: {.callout-note}
+If you already have the latest version it just returns:
+```bash
+# Git for Windows 2.45.1.windows.1 (64-bit)
+# Up to date
+```
+:::
+
 ## Version
 
 The following command returns the version number currently installed.
