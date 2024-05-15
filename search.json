@@ -68,5 +68,15 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
     ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Pro Git by Scott Chacon and Ben Straub",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>References</span>"
+    ]
   }
 ]
