@@ -8,6 +8,8 @@ book:
     chapters:
         - index.qmd
         - setup.qmd
+        - local-repo-basics.qmd
+        - references.qmd
 
 format:
     html:

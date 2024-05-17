@@ -1,0 +1,11 @@
+# Local Repo Basics
+
+## Terminology
+
++ A _project_ is a folder containing files and folders.
+
++ A _repository_  (or _repo_) is a project version controlled using Git.
+
++ A _local repository_ is a repository stored on a computer.
+
++ A _remote repository_ is a repository stored on a hosting service.
