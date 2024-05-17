@@ -70,13 +70,33 @@
     ]
   },
   {
+    "objectID": "local-repo-basics.html",
+    "href": "local-repo-basics.html",
+    "title": "Local Repo Basics",
+    "section": "",
+    "text": "Terminology",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Local Repo Basics</span>"
+    ]
+  },
+  {
+    "objectID": "local-repo-basics.html#terminology",
+    "href": "local-repo-basics.html#terminology",
+    "title": "Local Repo Basics",
+    "section": "",
+    "text": "A project is a folder containing files and folders.\nA repository (or repo) is a project version controlled using Git.\nA local repository is a repository stored on a computer.\nA remote repository is a repository stored on a hosting service.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Local Repo Basics</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
     "text": "Pro Git by Scott Chacon and Ben Straub",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>References</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]
