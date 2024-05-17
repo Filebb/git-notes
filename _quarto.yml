@@ -5,6 +5,7 @@ book:
     title: "Git Notes"
     author: ""
     date: ""
+    repo-url: https://github.com/Filebb/git-notes
     chapters:
         - index.qmd
         - setup.qmd
