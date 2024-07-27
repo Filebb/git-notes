@@ -2,7 +2,17 @@
 
 ## Install Git
 
+### Windows
+
 To install on Windows, download the executable from [here](https://git-scm.com/).
+
+### Linux
+
+To install on Debian based distros, run
+
+```bash
+sudo apt install git
+```
 
 ## Update Git
 
