@@ -14,7 +14,17 @@
     "href": "setup.html",
     "title": "Setup",
     "section": "",
-    "text": "Install Git\nTo install on Windows, download the executable from here.",
+    "text": "Install Git",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "setup.html#install-git",
+    "href": "setup.html#install-git",
+    "title": "Setup",
+    "section": "",
+    "text": "Windows\nTo install on Windows, download the executable from here.\n\n\nLinux\nTo install on Debian based distros, run\nsudo apt install git",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setup</span>"
     ]
