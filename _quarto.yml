@@ -10,6 +10,7 @@ book:
         - index.qmd
         - setup.qmd
         - local-repo-basics.qmd
+        - branching.qmd
         - references.qmd
 
 format:

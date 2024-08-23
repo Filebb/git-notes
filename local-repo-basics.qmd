@@ -1,11 +1,49 @@
 # Local Repo Basics
 
-## Terminology
+## Start Version Control
 
-+ A _project_ is a folder containing files and folders.
+To start version control in the current directory use
 
-+ A _repository_  (or _repo_) is a project version controlled using Git.
+```sh
+git init
+```
 
-+ A _local repository_ is a repository stored on a computer.
+Initialize a Git repository and set the name for the initial branch to be
+`<branch_name>`.
 
-+ A _remote repository_ is a repository stored on a hosting service.
+```sh
+git init -b <branch_name>
+```
+
+## Adding files to the staging area
+
+Add one file to the staging area
+
+```sh
+git add <filename>
+```
+
+Add multiple files to the staging area.
+
+```sh
+git add <filename> <filename> ...
+```
+
+Add all the files in the working directory that have been edited or changed to
+the staging area.
+
+```sh
+git add -A
+```
+
+## Making a commit
+
+It’s important to note that commit is both a verb and a noun. In Git, the verb
+to commit means to save something, and the noun (a commit) means a version of
+our project. So, to make a commit means to save a version of a project.
+
+To create a new commit with a commit message.
+
+```sh
+git commit -m “<message>”
+```
