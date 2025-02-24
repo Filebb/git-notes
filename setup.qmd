@@ -20,18 +20,7 @@ To get the current version number
 git version
 ```
 
-::: {.callout-note}
-Alternatively you can use
-```bash
-git -v
-```
-
-or
-
-```bash
-git --version
-```
-:::
+Alternatively you can use `git -v` or `git --version`.
 
 ## Setup Identity
 
