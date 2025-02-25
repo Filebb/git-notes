@@ -34,7 +34,7 @@
     "href": "setup.html#version",
     "title": "Setup",
     "section": "Version",
-    "text": "Version\nTo get the current version number\ngit version\n\n\n\n\n\n\nNote\n\n\n\nAlternatively you can use\ngit -v\nor\ngit --version",
+    "text": "Version\nTo get the current version number\ngit version\nAlternatively you can use git -v or git --version.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
     ]
